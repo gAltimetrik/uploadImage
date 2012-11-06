@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.camera.pma"
+        versionCode="10" 
+        version   = "1.0.0">
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>VisionWeb PMA</name>
+
+    <description>
+        PMA mobile solution. 
+    </description>
+
+    <author href="http://www.altimetrik.com" email="gfalco@altimetrik.com">
+        Gaston Falco
+    </author>
+
+
+    <preference name="fullscreen" value="true" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="stay-in-webview" value="true" />
+    <preference name="detect-data-types" value="false" />
+    <preference name="exit-on-suspend" value="false" />
+
+    <access origin="https://salesforce.com" subdomains="true"/>
+
+</widget>
